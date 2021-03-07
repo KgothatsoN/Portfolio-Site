@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400, 600');
+
+:root{
+    --mainColor: #0A1821;
+    --secondaryColor: #132B41;
+
+    --borderColor: #31506b;
+
+    --mainText:#fff;
+    --secondaryText: #eeeeee;
+
+    --navMainText: #17a2b8;
+    --navSecondaryText: #0f3c65;
+
+    --theme-border: #fff;
+
+    --previewBG: rgb(25, 39, 52, 0.8);
+    --previewShadow: #111921;
+    --ButtonColor: #132b41;
+    --ButtonSecondaryColor: #0f3c65;
+    --ButtonText: #fff;
+    --ButtonSecondaryText: #fff;
+}
