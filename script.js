@@ -15,7 +15,7 @@ let speed = 100;
 
 if (theme==null)
 {
-    setTheme("light")
+    setTheme("dark")
 }
 else
 {
@@ -29,19 +29,18 @@ for (let i=0; themeDots.length > i;i++)
     themeDots[i].addEventListener("click", function()
     {
         let mode = this.dataset.mode
-        console.log("clicked: ", mode)
         setTheme(mode)
     })
 }
 
 function setTheme(mode)
 {
-    if (mode=="light")
+    if (mode=="dark")
     {
         document.getElementById("theme-style").href = "main.css"
     }
 
-    if (mode=="dark")
+    if (mode=="light")
     {
         document.getElementById("theme-style").href = "dark.css"
     }
