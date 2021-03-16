@@ -2,7 +2,7 @@ let theme = localStorage.getItem("theme")
 const title = document.querySelector("#title");
 
 let j = 0;
-let text = "Lotjhani, I'm Kgothatso Ntuli...";
+let text = "Hi, I'm Kgothatso Ntuli...";
 let speed = 100;
 
 (function typeEffect()   {
@@ -37,12 +37,12 @@ function setTheme(mode)
 {
     if (mode=="dark")
     {
-        document.getElementById("theme-style").href = "main.css"
+        document.getElementById("theme-style").href = "/css/main.css"
     }
 
     if (mode=="light")
     {
-        document.getElementById("theme-style").href = "dark.css"
+        document.getElementById("theme-style").href = "/css/dark.css"
     }
 
     localStorage.setItem("theme", mode)
