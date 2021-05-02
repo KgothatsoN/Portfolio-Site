@@ -2,7 +2,7 @@ let theme = localStorage.getItem("theme")
 const title = document.querySelector("#title");
 
 let j = 0;
-let text = "Hi, I'm Kgothatso Ntuli...";
+let text = "Hi, I'm Kai Ntuli...";
 let speed = 100;
 
 (function typeEffect()   {
