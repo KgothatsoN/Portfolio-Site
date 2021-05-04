@@ -316,7 +316,7 @@ ul  {
 .post-wrapper{
     
     display: grid;
-	grid-template-columns: repeat(auto-fit, 320px);
+	grid-template-columns: repeat(3, 320px);
 	gap:20px;
     justify-content: center;
     padding-bottom: 50px;
@@ -346,6 +346,7 @@ ul  {
 .post-intro{
     color: #4b5156;
     font-size: 14px;
+    text-align: center;
 }
 
 .thumbnail{
@@ -444,11 +445,17 @@ ul  {
         padding: 5px;
         margin: 0 5px 0 10px;
     }
+
+    .post-wrapper   {
+        grid-template-columns: repeat(2, 320px);
+    }
     
 }
 
-@media screen and (max-width: 400px){
-
+@media screen and (max-width: 425px){
+    .post-wrapper   {
+        grid-template-columns: repeat(1, 320px);
+    }
 
 	#preview-shadow{
 		max-width: 280px;
